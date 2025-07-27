@@ -6,7 +6,12 @@
 
 ## 🌐 Demo Video & Showcase
 
-- 🎬 **Demo Video**: _[Add link here, e.g., YouTube or Google Drive]_  
+- 🎬 **Implementation Video Demonstration**: [Watch on Google Drive]
+([https://drive.google.com/file/d/l zmoFZKM2VrzVwqGgGOyjJ9qKwNOR
+GOw8/view?usp=drive_link](https://drive.google.com/file/d/1_DCrn2rYo8GHHWHBQtYG0IISiD0iFFea/view?usp=drive_link))
+**Open CV Video Demonstration**: [Watch on Google Drive]
+([[https://drive.google.com/file/d/l zmoFZKM2VrzVwqGgGOyjJ9qKwNOR
+GOw8/view?usp=drive_link](https://drive.google.com/file/d/1_DCrn2rYo8GHHWHBQtYG0IISiD0iFFea/view?usp=drive_link)](https://drive.google.com/file/d/1fRu_DPyqV8VpqjAnLNWHHTMdxc2kJyTc/view?usp=drive_link))  
 - 📘 **Patent/Documentation**: _[Add link to patent doc or project report]_
 
 ---
