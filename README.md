@@ -1,43 +1,48 @@
-# 🎹 Invisible MIDI Instrument
+# 🎹 Invisible MIDI Instrument – Touchless Virtual Piano & Synth Controller 🤖🎶
 
-A touchless, Arduino-based MIDI controller that uses infrared (IR) proximity sensors and gesture recognition to control musical notes and expressions in real-time—no physical keys required.
-
----
-
-## 📌 Overview
-
-This project demonstrates a **contactless digital instrument** powered by:
-
-- 🎵 **MIDI over serial** via Arduino UNO R4
-- ✋ **Infrared proximity sensors** as virtual keys
-- 👆 **Gesture recognition** using MediaPipe for volume and mode control
-- 🎚️ **Push button** for real-time instrument switching (drums, piano, etc.)
-- 💻 Compatibility with popular software synthesizers (VMPK, Sforzando, CoolSoft, etc.)
-
-Designed for accessibility, performance, education, and experimentation.
+**Invisible MIDI Instrument** is a touchless, Arduino-powered MIDI controller that enables users to play musical notes and switch instruments in real time using IR proximity sensors and a gesture-based interface. Designed for accessibility, education, and expressive digital performances.
 
 ---
 
-## ⚙️ Hardware Components
+## 🌐 Demo Video & Showcase
 
-- Arduino UNO R4
-- 10× IR Proximity Sensors (e.g., TCRT5000)
-- 1× Push Button
-- USB Cable
-- Jumper Wires and Breadboard (optional)
+- 🎬 **Demo Video**: _[Add link here, e.g., YouTube or Google Drive]_  
+- 📘 **Patent/Documentation**: _[Add link to patent doc or project report]_
 
 ---
 
-## 💽 Software Requirements
+## 🚀 Features
 
-### Arduino Side
-- Arduino IDE
-- Hairless MIDI Serial Bridge (for MIDI over USB)
-- LoopMIDI (for virtual MIDI port)
+- 🎵 Play notes without touching – just place your hand over IR sensors  
+- ✋ Gesture-based volume control using MediaPipe (up/down swipe)  
+- 🔁 Push button to switch instruments on the fly (e.g., piano, drums)  
+- 🎧 MIDI output via USB to software synthesizers like VMPK, Sforzando  
+- 🔌 Compatible with any DAW using virtual ports (Hairless + loopMIDI)
 
-### Python Side (Gesture Recognition)
-- Python 3.7+
-- Dependencies in `requirements.txt`
+---
 
-```bash
-pip install -r requirements.txt
+## 🛠️ Tech Stack
+
+**Hardware:**  
+- Arduino UNO R4  
+- IR Proximity Sensors (e.g., TCRT5000)  
+- Push Button  
+- Breadboard, USB Cable
+
+**Software & Tools:**  
+- Arduino IDE  
+- Hairless MIDI Serial Bridge  
+- loopMIDI  
+- Python (for gesture control)  
+- MediaPipe + PyAutoGUI  
+- MIDI Synthesizer (VMPK / Sforzando / Cakewalk)
+
+---
+
+## 🧪 System Architecture
+
+```text
+[IR Sensors] ---> [Arduino UNO R4] ---> [Hairless MIDI + loopMIDI] ---> [Virtual Synth Software]
+                           ↑
+              [Gesture Control (Python)] -- Adjusts Volume / Mode
+
